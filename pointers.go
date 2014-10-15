@@ -10,5 +10,6 @@ type Person struct {
 func main() {
 	p := Person{"Sam", "Starling"}
 	q := &p
+	q.FirstName = "Samuel"
 	fmt.Println(q)
 }
